@@ -1,0 +1,29 @@
+{
+  "name": "webpack-babel-react-redux-bootstrap",
+  "version": "0.0.1",
+  "description": "webpack + babel + react + redux",
+  "main": "index.js",
+  "repository": "git@github.com:dalgos/webpack-babel-react-redux-bootstrap.git",
+  "author": "dalgos <dalgos@dalgos.com>",
+  "scripts": {
+    "start:test": "webpack-dev-server -d --config ./webpack/webpack.config.dev.js --colors --hot",
+    "build": "webpack -p --config ./webpack/webpack.config.prod.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jsx-loader": "^0.13.2",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "standard": "^10.0.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
